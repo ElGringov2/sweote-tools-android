@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dragonrider.SWEotE"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:name="com.dragonrider.SWEotE.Classes.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.dragonrider.SWEotE.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.GroundFightActivities.GroundFightActivity"
+            android:label="@string/title_activity_ground_fight"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.GroundFightActivities.AddFightersActivity"
+            android:label="@string/title_activity_add_fighters"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.GroundFightActivities.StartGroundFightActivity"
+            android:label="@string/title_activity_start_ground_fight"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.PlayerActivities.EditPlayerActivity"
+            android:label="@string/title_activity_edit_player"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.EditorNPC.NPCEditorActivity"
+            android:label="@string/title_activity_npceditor"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.GroundFightActivities.GroundFightAttackResolver"
+            android:label="@string/title_activity_groundfightresolver"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.GroundFightActivities.GroundFightForceResolver"
+            android:label="@string/title_activity_groundfightresolver"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.NPCViewer.ShowNPCActivity"
+            android:label="@string/title_activity_shownpc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.Sabacc.ActivitySabaccGame"
+            android:label="@string/title_sabacc_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.Classes.ActivitySelectNPC"
+            android:label="@string/title_chosenpc"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.dragonrider.SWEotE.GroundFightActivities.GroundFightPrepareActivity"
+            android:label="@string/title_activity_ground_fight_prepare" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="item_accurate">Accurate</string>
+    <string name="item_autofire">Auto-Fire</string>
+    <string name="item_breach">Breach</string>
+    <string name="item_burn">Burn</string>
+    <string name="item_blast">Blast</string>
+    <string name="item_concussive">Concussive</string>
+    <string name="item_cortosis">Cortosis</string>
+    <string name="item_cumbersome">Cumbersome</string>
+    <string name="item_defensive">Defensive</string>
+    <string name="item_deflection">Deflection</string>
+    <string name="item_disorient">Disorient</string>
+    <string name="item_ensnare">Ensnare</string>
+    <string name="item_guided">Guided</string>
+    <string name="item_knockdown">Knockdown</string>
+    <string name="item_inaccurate">Inaccurate</string>
+    <string name="item_inferior">Inferior</string>
+    <string name="item_ion">Ion</string>
+    <string name="item_limited_ammo">Limited Ammo</string>
+    <string name="item_linked">Linked</string>
+    <string name="item_pierce">Pierce</string>
+    <string name="item_prepare">Prepare</string>
+    <string name="item_slow_firing">Slow-Firing</string>
+    <string name="item_stun">Stun</string>
+    <string name="item_stun_damage">Stun Damage</string>
+    <string name="item_stun_settings">Stun Settings</string>
+    <string name="item_sunder">Sunder</string>
+    <string name="item_superior">Superior</string>
+    <string name="item_tractor">Tractor</string>
+    <string name="item_vicious">Vicious</string>
+    <string name="item_stagger">Stagger</string>
+    <string name="item_stun_droid_only">Stun (Droid only)</string>
+    <string name="item_stun_damage_droid_only">Stun damage (Droid only)</string>
+    <string name="item_unwieldy">Unwieldy</string>
+    
+    <string name="item_desc_accurate">Add %d [B] to roll</string>
+    <string name="item_desc_autofire">Additional hit per two Advantages</string>
+    <string name="item_desc_breach">Ignore %d Armor points (1 Armor = 10 Soak))</string>
+    <string name="item_desc_burn">Inflict base damage each turn for %d turns</string>
+    <string name="item_desc_blast">Each character engaged suffer %d wounds (may spend 3 Advantage to trigger Blast if missed)</string>
+    <string name="item_desc_concussive">Staggered for %d turn</string>
+    <string name="item_desc_cortosis">Weapon are immune to Sunder, Armor to Pierce and Breach</string>
+    <string name="item_desc_cumbersome">Need %d Brawn to wield, +1 DD per difference</string>
+    <string name="item_desc_defensive">Add %d Melee Defense</string>
+    <string name="item_desc_deflection">Add %d Ranged Defense</string>
+    <string name="item_desc_disorient">Disorient (+1 [S] to all actions) for %d turns</string>
+    <string name="item_desc_ensnare">Immobilized for %d turns (Hard Atlhetics to break free)</string>
+    <string name="item_desc_guided">If missed, spend 3 Advantages to roll special attack (%d ability dice, compare silhouette 0 to the target\'s silhouette for difficulty)</string>
+    <string name="item_desc_knockdown">[a][a] + 1 per silhouette betond one to knock prone the target</string>
+    <string name="item_desc_inaccurate">Add %d SBD to roll</string>
+    <string name="item_desc_inferior">Automatic Threat generation</string>
+    <string name="item_desc_ion">Deal damage to System Strain</string>
+    <string name="item_desc_limited_ammo">%d uses before reload (maneuver)</string>
+    <string name="item_desc_linked">[a][a] to score additional hit (max %d time(s))</string>
+    <string name="item_desc_pierce">Ignore %d Soak</string>
+    <string name="item_desc_prepare">Must perform %d Prepare maneuver</string>
+    <string name="item_desc_slow_firing">Must wait %d rounds before another use</string>
+    <string name="item_desc_stun">Spend 2 advantages to inflict %d strain</string>
+    <string name="item_desc_stun_damage">Inflict damage to strain</string>
+    <string name="item_desc_sunder">Spend 1 Advantage to damage target\'s wielded item (Undamage->Minor, Minor->Moderate, Moderate->Major, Major->destroyed)</string>
+    <string name="item_desc_superior">Automatic Advantage generation </string>
+    <string name="item_desc_tractor">May not move unless make a successful Piloting check difficulty %d</string>
+    <string name="item_desc_vicious">Add %d*10 to critical hit result</string>
+	<string name="item_desc_stun_settings">As a free action, user can switch to Stun Damage (deal Strain, range Short)</string>
+    <string name="item_desc_stagger">Stagger</string>
+    <string name="item_desc_stun_droid_only">Stun (Droid only)</string>
+    <string name="item_desc_stun_damage_droid_only">Stun damage (Droid only)</string>
+    <string name="item_desc_unwieldy">Unwieldy</string>
+    
+
+    
+</resources>

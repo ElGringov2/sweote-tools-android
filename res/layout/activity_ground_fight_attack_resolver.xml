@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_margin="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/groundfighteritem_border" >
+
+        <TextView
+            android:id="@+id/GroundFightResolver_AttackerName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/vs"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/GroundFightResolver_DefenderName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <org.apmem.tools.layouts.FlowLayout
+        android:id="@+id/GroundFightResolver_AttackResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/groundfighteritem_border" >
+
+    </org.apmem.tools.layouts.FlowLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/groundfighteritem_border" >
+
+        <ImageButton
+            android:id="@+id/GroundFightResolver_Difficulty_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="1"
+            android:src="@drawable/groundfightresolver_difficulty_one" />
+
+        <ImageButton
+            android:id="@+id/GroundFightResolver_Difficulty_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="2"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="2"
+            android:src="@drawable/groundfightresolver_difficulty_two" />
+
+        <ImageButton
+            android:id="@+id/GroundFightResolver_Difficulty_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="3"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="3"
+            android:src="@drawable/groundfightresolver_difficulty_three" />
+
+        <ImageButton
+            android:id="@+id/GroundFightResolver_Difficulty_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="4"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="4"
+            android:src="@drawable/groundfightresolver_difficulty_four" />
+
+        <ImageButton
+            android:id="@+id/GroundFightResolver_Difficulty_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="5"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="5"
+            android:src="@drawable/groundfightresolver_difficulty_five" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/GroundFightResolver_EditRollResult"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_margin="4dp"
+        android:background="@drawable/groundfighteritem_border"
+        android:contentDescription="@string/action_example"
+        android:maxHeight="64dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dicerollermain" />
+
+    <org.apmem.tools.layouts.FlowLayout
+        android:id="@+id/GroundFightResolver_AttackResult2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/groundfighteritem_border" >
+
+    </org.apmem.tools.layouts.FlowLayout>
+
+    <TextView
+        android:id="@+id/GroundFightResolver_ResultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/groundfighteritem_border"
+        android:text="" />
+
+    <LinearLayout
+        android:id="@+id/GroundFightResolver_NPCDamageLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/groundfighteritem_border"
+        android:layout_margin="4dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/GroundFightResolver_NPCDamageButton"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_weight="1"
+            android:text="@string/weapon_damage"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/GroundFightResolver_NPCCriticalButton"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_weight="1"
+            android:text="@string/weapon_critical"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

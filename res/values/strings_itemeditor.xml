@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="itemeditor_newitem">Nouvel équipement</string>
+    
+    <string name="itemeditor_weapontitle">Editeur d\'arme</string>
+    <string name="itemeditor_weaponname">Nom de l\'arme</string>
+    <string name="itemeditor_skill">Compétence</string>
+    <string name="itemeditor_damage">Dégâts</string>
+    <string name="itemeditor_critical">Critique</string>
+    <string name="itemeditor_qualities">Qualitées</string>
+    
+    <string name="itemeditor_armortitle">Editeur d\'armure</string>
+</resources>

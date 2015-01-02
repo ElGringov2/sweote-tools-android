@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Star Wars Edge of the Empire</string>
+    <string name="title_activity_main">Edge of the Empire</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ground_fight">Combat Terrestre</string>
+    <string name="title_activity_add_fighters">Ajouter des combattants</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="nobody">Personne</string>
+    <string name="none1">Aucun</string>
+    <string name="none2">Aucune</string>
+    <string name="newturn">Nouveau tour</string>
+    <string name="title_activity_edit_player">Editer les joueurs</string>
+    <string name="title_activity_start_ground_fight">Commencer un combat</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_npceditor">Editeur de PNJ</string>
+    <string name="title_activity_groundfightresolver">Résolution de combat</string>
+    <string name="title_chosenpc">Selectionnez un PNJ</string>
+    <string name="brawn">Vigueur</string>
+    <string name="brawn_abr">Vg</string>
+    <string name="agility">Agilité</string>
+    <string name="agility_abr">Ag</string>
+    <string name="cunning">Astuce</string>
+    <string name="cunning_abr">As</string>
+    <string name="intellect">Intellect</string>
+    <string name="intellect_abr">In</string>
+    <string name="presence">Presence</string>
+    <string name="presence_abr">Pr</string>
+    <string name="willpower">Volonté</string>
+    <string name="willpower_abr">Vol</string>
+    <string name="save">Enregistrer</string>
+    <string name="revert">Revenir</string>
+    <string name="nnew">Nouveau</string>
+    <string name="description">Description</string>
+    <string name="category">Catégorie</string>
+    <string name="minion">Larbin</string>
+    <string name="rival">Rival</string>
+    <string name="nemesis">Némesis</string>
+    <string name="skills">Compétences</string>
+    <string name="talents">Talents</string>
+    <string name="abilities">Capacités</string>
+    <string name="weapons">Armes</string>
+    <string name="weapon">Arme</string>
+    <string name="armor">Armure</string>
+    <string name="armors">Armures</string>
+    <string name="gears">Equipements</string>
+    <string name="gear">Equipement</string>
+    <string name="Add">Ajouter</string>
+    <string name="name">Nom</string>
+    <string name="value">Valeur</string>
+    <string name="title_activity_ground_fight_prepare">Préparation d\'un combat</string>
+    <string name="starting_wounds">Blessures de départ</string>
+    <string name="starting_strain">Stress de départ</string>
+    <string name="plyer_import">Importer</string>
+    <string name="title_activity_ground_fight_prepare_list">Liste des rencontres</string>
+    <string name="title_activity_ground_fight_multi">Combat</string>
+    <string name="title_activity_ground_fight_multi_panel">Combat</string>
+    <string name="item_additionnal_damage_mod">Dégâts supplémentaire</string>
+    <string name="item_desc_additionnal_damage_mod">Description</string>
+    <string name="this_action_ends_combat">Cette action terminera le combat en cours.</string>
+    <string name="title_activity_npc_viewer">Liste des PNJs</string>
+    <string name="in_groups">(en groupe)</string>
+    <string name="search_title">Recherche</string>
+    <string name="MainMenu">Menu principal</string>
+    <string name="ImportNPCMessage" formatted="false">Repertoire: %s\nFichier: %s\nType: %s</string>
+    <string name="InsertNPCIntoDatabase">Insertion des PNJ dans la base de donnée…</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="remove">Supprimer</string>
+
+    <item name="remove" type="id">Supprimer</item>
+
+    <string name="title_activity_activity_scenario_editor">Scenarios</string>
+    <string name="title_activity_activity_scenario_viewer">activityScenarioViewer</string>
+
+</resources>

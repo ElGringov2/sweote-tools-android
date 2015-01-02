@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fightstatus_played">A joué</string>
+    <string name="fightstatus_prone">Couché</string>
+    <string name="fightstatus_cover">A couvert</string>
+    <string name="fightstatus_defensive">Posture défensive</string>
+
+</resources>

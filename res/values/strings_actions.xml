@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_none">Aucune</string>
+
+    <string name="action_aim_plusoneboost">Visée</string>
+    <string name="action_desc_aim_plusoneboost">Ajoute +1B sur la prochaine attaque</string>
+
+    <string name="action_assist">Assistance</string>
+    <string name="action_desc_assist">+1B sur le prochain jet d\'un allié</string>
+
+    <string name="action_defensivestance_desc">Position Défensive</string>
+    <string name="action_desc_defensivestance_desc">+1S en combat, +1MD</string>
+
+    <string name="action_movinglargeitem">Déplacer un objet lourd</string>
+
+    <string name="action_open_close_door">Ouvrir/Fermer une porte</string>
+
+    <string name="action_cover_desc">Se mettre à couvert</string>
+    <string name="action_desc_cover_desc">+1RD (+1SB sur les jets pour toucher a distance)</string>
+
+    <string name="action_mound_dismount">Embarquer/Débarquer</string>
+
+    <string name="action_move">Déplacement (Changement de portée)</string>
+
+    <string name="action_standfromprone">Se relever</string>
+
+    <string name="action_drop_prone">Se jeter à terre</string>
+    <string name="action_desc_drop_prone">+1RD mais +1B pour toucher au CàC</string>
+
+    <string name="action_prepare">Préparation</string>
+
+    <string name="action_equipweapon">Equiper</string>
+
+    <string name="action_holsterweapon">Ranger</string>
+
+</resources>

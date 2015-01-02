@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="skill_astrogation">Astrogation</string>
+    <string name="skill_athletics">Athlétisme</string>
+    <string name="skill_brawl">Pugilat</string>
+    <string name="skill_charm">Charme</string>
+    <string name="skill_coercion">Coercicion</string>
+    <string name="skill_computers">Informatique</string>
+    <string name="skill_cool">Sang-Froid</string>
+    <string name="skill_coordination">Coordination</string>
+    <string name="skill_core_worlds">Conn. monde du noyeau</string>
+    <string name="skill_deception">Mensonges</string>
+    <string name="skill_discipline">Calme</string>
+    <string name="skill_education">Conn. Education</string>
+    <string name="skill_gunnery">Artillerie</string>
+    <string name="skill_leadership">Commandement</string>
+    <string name="skill_lore">Conn. Générales</string>
+    <string name="skill_mechanics">Mécanique</string>
+    <string name="skill_medicine">Médicine</string>
+    <string name="skill_melee">Mélée</string>
+    <string name="skill_negotiation">Négotiation</string>
+    <string name="skill_outer_rim">Conn. Bordure extérieure</string>
+    <string name="skill_perception">Pérception</string>
+    <string name="skill_piloting_planetary">Pilotage (Planète)</string>
+    <string name="skill_piloting_space">Pilotage (Espace)</string>
+    <string name="skill_ranged_heavy">A Distance (Lourde)</string>
+    <string name="skill_ranged_light">A Distance (Légère)</string>
+    <string name="skill_resilience">Résistance</string>
+    <string name="skill_skulduggery">Magouille</string>
+    <string name="skill_stealth">Discretion</string>
+    <string name="skill_streetwise">Système D</string>
+    <string name="skill_survival">Survie</string>
+    <string name="skill_underworld">Conn. Pègre</string>
+    <string name="skill_vigilance">Vigilance</string>
+    <string name="skill_xenology">Conn. Xénologie</string>
+    <string name="skill_lightsaber">Sabrolaser</string>
+    <string name="skill_warfare">Guérilla</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/activity_shownpc.xml" />
+    </issue>
+    <issue id="DefaultLocale" severity="ignore" />
+    <issue id="HandlerLeak" severity="ignore" />
+    <issue id="HardcodedText">
+        <ignore path="res/layout/activity_ground_fight_resolver.xml" />
+        <ignore path="res/layout/item_initsabacc_player.xml" />
+    </issue>
+    <issue id="NestedWeights" severity="ignore" />
+    <issue id="OldTargetApi" severity="ignore" />
+    <issue id="UselessParent" severity="ignore" />
+</lint>

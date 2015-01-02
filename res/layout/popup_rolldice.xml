@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDDDDD"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/plus_symbol"
+            android:textSize="32sp" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerAddDice0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_0" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerAddDice1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_1" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerAddDice2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_2" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerAddDice3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_3" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerAddDice4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_4" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerAddDice5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_5" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerAddDice6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/minus_symbol"
+            android:textSize="32sp" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerDelDice0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_0" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerDelDice1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_1" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerDelDice2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_2" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerDelDice3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_3" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerDelDice4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_4" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerDelDice5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_5" />
+
+        <ImageButton
+            android:id="@+id/PopupDiceRollerDelDice6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/dice_6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <org.apmem.tools.layouts.FlowLayout
+            android:id="@+id/PopupDiceRollerListDice"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/groundfighteritem_border" >
+
+        </org.apmem.tools.layouts.FlowLayout>
+
+        <org.apmem.tools.layouts.FlowLayout
+            android:id="@+id/PopupDiceRollerListResults"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/groundfighteritem_border" />
+
+        <TextView
+            android:id="@+id/PopupDiceRollerInterpreteText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/groundfighteritem_border"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</LinearLayout>

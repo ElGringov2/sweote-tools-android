@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diceroller">Lancé de dé</string>
+    <string name="diceroller_validate_roll">Valider</string>
+    <string name="diceroller_cancel_roll">Annuler</string>
+</resources>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dragonrider.SWEotE.GroundFightActivity" >
+
+    <item
+        android:id="@+id/GroundFightMenu_AddFighter"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_add_person"
+        android:title="@string/GroundFightMenu_AddFighter"/>
+
+    <item android:id="@+id/GroundFightMenu_AddFighters"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_add_group"
+        android:title="@string/debug" />
+    <item android:id="@+id/GroundFightMenu_NextRound" 
+        android:icon="@drawable/ic_action_undo"
+        android:title="@string/next_round"
+        android:showAsAction="always"/>
+    <item android:id="@+id/GroundFightMenu_AddEncounter" 
+        android:title="@string/encounter" 
+        />
+</menu>

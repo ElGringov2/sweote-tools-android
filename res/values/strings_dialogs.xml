@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_pleasewait">Veuillez patienter…</string>
+    
+    
+    <string name="dialog_initdatabase">Initialiser la base de donnée</string>
+    <!--<string name="dialog_initshipdatabase">Initialiser la base de donnée Vaisseaux</string>-->
+    <!--<string name="dialog_inittemplatedatabase">Initialiser la base de donnée Templates</string>-->
+    
+    
+    <string name="dialog_playership">Vaisseau(x) des joueurs:</string>
+    
+    
+    <string name="dialog_howmuch">Combien?</string>
+    
+</resources>

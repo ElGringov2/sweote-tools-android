@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="galactic_underworld">Galactic Underworld</string>
+    <string name="spaceport_personel">Spaceport Personnel</string>
+    <string name="bounty_hunters">Bounty Hunters</string>
+    <string name="law_and_order">Forces of Law and Order</string>
+    <string name="patrons_and_clients">Patrons and Clients</string>
+    <string name="core_worlder">Core Worlder</string>
+    <string name="droids">Droids</string>
+    <string name="galactics_oddities">Galactic Oddities and Fringe Dwellers</string>
+</resources>

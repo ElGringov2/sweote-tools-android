@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="npceditor_newnpctitle">Entrez le nom du nouveau PNJ</string>
+    <string name="npceditor_npcexist">Le PNJ existe déjà!</string>
+    <string name="npceditor_editskill">Editer la compétence</string>
+    <string name="npceditor_edittalent">Editer le talent</string>
+    <string name="npceditor_editability">Editer le talent</string>
+    <string name="npceditor_newtalent">Nouveau talent</string>
+    <string name="npceditor_newability">Nouvelle capacité</string>
+    <string name="equipement">Equipement:</string>
+    <string name="find_npc">Rechercher un PNJ...</string>
+
+</resources>

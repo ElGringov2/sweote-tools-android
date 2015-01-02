@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Cast"
+        android:icon="@drawable/ic_media_route_off_holo_dark"
+        android:showAsAction="always"
+        android:id="@+id/menu_cast_button"
+        />
+</menu>

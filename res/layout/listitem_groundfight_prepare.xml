@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GroundFighterItemBackgroundLayout"
+    android:background="@drawable/groundfighteritem_border"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    
+    
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:padding="2dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+        	android:contentDescription="@string/ok"
+        	android:id="@+id/GroundFighterItemImage"/>
+
+
+
+        <EditText
+            android:id="@+id/GroundFighterItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/GroundFightPrepareNPCTypeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black" />
+
+        <ImageButton
+            android:id="@+id/GroundFighterItemImageButton"
+            android:src="@drawable/ic_action_overflow"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter" />
+
+
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/starting_wounds"
+        />
+    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+        <TextView 
+            android:id="@+id/GroundFighterItemStartingWoundsValue"
+            android:layout_margin="4dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content" />
+        
+	    <SeekBar
+	        android:layout_margin="4dp" 
+	        android:layout_weight="1"
+	        android:id="@+id/GroundFighterItemStartingWoundsSeekBar"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        
+	        />
+
+	</LinearLayout>
+	
+
+        
+    <LinearLayout
+        android:id="@+id/GroundFighterItemStartingStrainInfos"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+	    
+        <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/starting_strain"
+        />
+    
+        
+	    <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	    
+	        <TextView 
+	            android:id="@+id/GroundFighterItemStartingStrainValue"
+	            android:layout_margin="4dp"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:layout_width="32dp"
+	            android:layout_height="wrap_content" />
+	        
+		    <SeekBar
+		        android:layout_margin="4dp" 
+		        android:layout_weight="1"
+		        android:id="@+id/GroundFighterItemStartingStrainSeekBar"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        
+		        />
+	
+		</LinearLayout>
+    </LinearLayout>
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/weapon"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/GroundFighterItemStartingWeaponSpinner"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+</LinearLayout>

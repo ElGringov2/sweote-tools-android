@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="force_one_time">une fois</string>
+    <string name="force_two_time">deux fois</string>
+    <string name="force_three_time">trois fois</string>
+    <string name="force_four_time">quatre fois</string>
+    <string name="force_of_one">d\'un</string>
+    <string name="force_of_two">de deux</string>
+    <string name="force_of_three">de trois</string>
+    <string name="force_of_four">de quatre</string>
+    <string name="force_one">un</string>
+    <string name="force_two">deux</string>
+    <string name="force_three">trois</string>
+    <string name="force_four">quatre</string>
+    
+    <string name="force_power">Pouvoir de la Force: </string>
+    
+    <string name="force_sense_basic">Sensation</string>
+    <string name="force_sense_description1" formatted="false">[Z]: Ressent les formes de vies à portée courte. </string>
+    <string name="force_sense_description2" formatted="false">[Z]: Ressent l\'état émotionnel d\'une cible engagée. </string>
+    <string name="force_sense_rangeupgrade" formatted="false">[Z]: portée %s </string>
+    <string name="force_sense_magnitudeupgrade" formatted="false">[Z]: +%d cible(s) </string>
+    <string name="force_sense_control0" formatted="false">Continu ([F]): Améliore %s la difficulté %s jet(s) d\'attaque dirigé contre lui par tour.</string>
+    <string name="force_sense_control1" formatted="false">[Z]: Ressent les pensées d\'un être vivant engagé.</string>
+    <string name="force_sense_control2" formatted="false">Continu ([F]): Améliore %s %s jet(s) d\'attaque par tour.</string>
+    
+    <string name="force_move_basic">Déplacement</string>
+    <string name="force_move_description" formatted="false">[Z]: Déplace un objet de silouhette 0 d\'engagé à engagé.</string>
+    <string name="force_move_magnitudeupgrade" formatted="false">+1[Z]: +%d objets(s) </string>
+    <string name="force_move_rangeupgrade" formatted="false">+1[Z]: portée max %s </string>
+    <string name="force_move_strenghtupgrade" formatted="false">+1[Z]: Silhouette max %d </string>
+    <string name="force_move_control0" formatted="false">Jet de Calme+Force: Permet de faire des dégâts (Silouhette x 10)</string>
+    <string name="force_move_control1" formatted="false">Permet de prendre des mains un objet</string>
+    <string name="force_move_control2" formatted="false">Le pouvoir est une extension de ses mains.</string>
+    
+    
+</resources>

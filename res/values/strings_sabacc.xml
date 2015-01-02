@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_sabacc_game">Partie de Sabacc</string>
+    <string name="suite_sabres">Sabres</string>
+    <string name="suite_baton">Bâtons</string>
+    <string name="suite_fioles">Fioles</string>
+    <string name="suite_coin">Monnaies</string>
+</resources>

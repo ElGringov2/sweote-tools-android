@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/GroundFighterItemBackgroundLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/groundfighteritem_border"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:background="#00000000"
+            android:padding="2dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="fitCenter"
+        	android:contentDescription="@string/ok"
+        	android:id="@+id/GroundFighterItemImage"/>
+
+        <TextView
+            android:id="@+id/GroundFighterItemName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black" />
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/GroundFighterItemColor"-->
+            <!--android:layout_width="32dp"-->
+            <!--android:layout_height="32dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:orientation="vertical" >-->
+
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/GroundFighterItemWounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="5dp"
+         />
+
+    <ProgressBar
+        android:id="@+id/GroundFighterItemWoundsBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/GroundFighterItemStrain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@android:color/black"
+         />
+
+    <ProgressBar
+        android:id="@+id/GroundFighterItemStrainBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/select_maneuver"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/GroundFighterItemManeuverSpinner"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/select_action"
+        android:textColor="@android:color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Spinner
+        android:id="@+id/GroundFighterItemActionSpinner"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    
+    <TextView 
+        android:id="@+id/GroundFighterItemStatusText"
+        
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/black"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/GroundFighterItemButtonApply"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/ok"
+            android:background="?android:attr/selectableItemBackground"
+            android:src="@drawable/ic_action_accept" />
+
+        <ImageButton
+            android:id="@+id/GroundFighterItemButtonDamage"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/ic_action_bightness_low"
+            android:scaleType="fitCenter" />
+        
+        <ImageButton
+            android:id="@+id/GroundFighterItemButtonInfos"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+        	android:contentDescription="@string/ok"
+            android:src="@drawable/ic_action_about" />
+    </LinearLayout>
+
+</LinearLayout>

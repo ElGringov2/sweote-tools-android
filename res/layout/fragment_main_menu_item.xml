@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dragonrider.SWEotE.MainMenuItemFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/groundfightmenu"
+                android:id="@+id/ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:contentDescription="@string/abilities"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:id="@+id/TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/abilities"
+                android:layout_margin="4dp"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="4dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

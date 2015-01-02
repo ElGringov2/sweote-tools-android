@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/groundfighteritem_border"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ListItemStartGroundFight_CharacterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <CheckBox
+        android:id="@+id/ListItemStartGroundFight_IsPresent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Est présent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <Button
+            android:id="@+id/ListItemStartGroundFight_TriumphMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/minus_symbol" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/tri" />
+
+        <TextView
+            android:id="@+id/ListItemStartGroundFight_TriumphCount"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"            
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<Button
+		    android:id="@+id/ListItemStartGroundFight_TriumphPlus"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/plus_symbol" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <Button
+            android:id="@+id/ListItemStartGroundFight_SuccessMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/minus_symbol" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/suc" />
+
+        <TextView
+            android:id="@+id/ListItemStartGroundFight_SuccessCount"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"            
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<Button
+		    android:id="@+id/ListItemStartGroundFight_SuccessPlus"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/plus_symbol" />
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" >
+
+        <Button
+            android:id="@+id/ListItemStartGroundFight_AdvantageMinus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/minus_symbol" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/ok"
+            android:src="@drawable/adv" />
+
+        <TextView
+            android:id="@+id/ListItemStartGroundFight_AdvantageCount"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"            
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		<Button
+		    android:id="@+id/ListItemStartGroundFight_AdvantagePlus"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="@string/plus_symbol" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/GroundFightPrepareMenuItem_AddFighter" 
+        android:title="@string/GroundFightMenu_AddFighter"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_add_group">
+    </item>
+    <item
+        android:id="@+id/GroundFightPrepareMenuItem_SaveEncounter"
+        android:title="Enregistrer"
+        android:icon="@drawable/ic_action_save"
+        android:showAsAction="ifRoom"
+        >
+    </item>
+</menu>

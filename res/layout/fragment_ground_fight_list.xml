@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context="com.dragonrider.SWEotE.GroundFightActivities.GroundFightListFragment">
+
+    <ListView
+        android:id="@+id/GroundFightActivyty_MainList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:dividerHeight="0dp"
+        android:divider="@android:color/transparent">
+    </ListView>
+
+</FrameLayout>

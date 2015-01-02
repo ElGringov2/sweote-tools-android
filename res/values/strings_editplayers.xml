@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_editplayer_addplayer">Ajouter</string>
+    <string name="menu_editplayer_saveplayer">Enregistrer</string>
+    <string name="menu_editplayer_importplayer">Importer à partir du stockage</string>
+    <string name="playername">Nom du joueur</string>
+    <string name="charactername">Nom du personnage</string>
+    
+</resources>
